@@ -22,7 +22,7 @@ form {
 
 .heading {
     text-align: center;
-    background: rgb(159, 0, 87);
+    background: rgb(255, 15, 147);
     color: white;
     margin: 0;
     margin-bottom: 20px;
@@ -53,8 +53,61 @@ input {
     border-radius: 10px;
     border: none;
     outline: none;
-    background-color: black;
+    background-color: rgb(16, 11, 179);
     color: white;
     cursor: pointer;
     margin: 20px;
+}
+.generateBtn:hover{
+    background-color: rgba(16, 11, 179,20);
+}
+.generateBtn:active{
+    background-color: rgb(41, 41, 171);
+}
+
+
+.sig{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .nm{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    
+  }
+  .social{
+    font-size: 18px;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    
+  }
+  a:hover{
+    font-size: 25Px;
+  }
+
+  .ft {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(8, 2, 43);
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Adjust padding as needed */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Additional styles for your social links */
+.social a {
+    margin: 0 5px; /* Adjust margin as needed */
 }
